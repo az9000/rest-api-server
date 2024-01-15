@@ -16790,6 +16790,22 @@
         "isReflexive": 0,
         "translations": [
             {
+                "translation": "golden",
+                "example": "El agua se ve dorada al atardecer.The water looks golden under the sunset.\nCarmen Montejo fue una estrella en la época dorada del cine mexicano.Carmen Montejo was a star during Mexico’s golden age of cinema."
+            },
+            {
+                "translation": "gold",
+                "example": "Carlos tiene un coche dorado.Carlos has a gold car."
+            },
+            {
+                "translation": "gold-colored",
+                "example": "Le di a mi padre un alfiler de corbata dorado por su cumpleaños.I gave my father a gold-colored tie tack for his birthday."
+            },
+            {
+                "translation": "gilded",
+                "example": "El canario canta en su jaula dorada.The canary sings in its gilded cage."
+            },
+            {
                 "translation": "gilding",
                 "example": "Los artesanos tomaron una semana para terminar el dorado de la estatua. - The artisans took a week to finish the gilding of the statue."
             },
@@ -35334,6 +35350,14 @@
         "isReflexive": 0,
         "translations": [
             {
+                "translation": "ok",
+                "example": "De acuerdo, iremos todos al concierto.Okay, we'll all go to the concert."
+            },
+            {
+                "translation": "all right",
+                "example": "¿Te marco al rato? - De acuerdo.I'll call you in a bit? - All right."
+            },
+            {
                 "translation": "in agreement",
                 "example": "Los dos partidos no están de acuerdo en cómo solucionar el problema de la violencia en las escuelas. - The two parties are not in agreement over how to solve the problem of violence in schools."
             }
@@ -43438,12 +43462,36 @@
         "isReflexive": 0,
         "translations": [
             {
+                "translation": "fair",
+                "example": "No es justo; ¡siempre le das más comida a mi hermanito!It's not fair; you always give my little brother more food!"
+            },
+            {
                 "translation": "just",
-                "example": "Justo acabamos de llegar. - We have just arrived."
+                "example": "Justo acabamos de llegar. - We have just arrived.\nEl juez tomó una decisión justa.The judge made a just decision."
+            },
+            {
+                "translation": "exact",
+                "example": "¿Cuál es el precio justo de este coche?What is the exact price of this car?"
             },
             {
                 "translation": "right",
-                "example": "Llegaste justo a tiempo para cenar. - You arrived right on time for dinner."
+                "example": "Llegaste justo a tiempo para cenar. - You arrived right on time for dinner.\nSi no usas el tamaño justo, el plato no cabrá en el horno.If you don't use the right size, the dish won't fit in the oven."
+            },
+            {
+                "translation": "tight",
+                "example": "Con ese pantalón justo te ves como un matador.You look like a matador with those tight pants."
+            },
+            {
+                "translation": "adjusted",
+                "example": "¿Todos los tornillos ya están justos?Are all the screws adjusted?"
+            },
+            {
+                "translation": "just enough",
+                "example": "Tenemos el dinero justo para pagar la renta.We have just enough money to pay our rent."
+            },
+            {
+                "translation": "righteous (religion)",
+                "example": "¿Cómo va ese dicho acerca de los justos y la prosperidad?How does that saying about the righteous and prosperity go?"
             }
         ]
     },
@@ -58997,6 +59045,7 @@
         "isVerb": 0,
         "isReflexive": 0,
         "translations": [
+           
             {
                 "translation": "What do you do for a living?",
                 "example": "He visto que trabajas en casa. ¿A qué te dedicas? - Soy traductor autónomo. - I've seen you work from home. What do you do for a living? - I'm a freelance translator."
