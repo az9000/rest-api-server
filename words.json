@@ -6168,6 +6168,10 @@
             {
                 "translation": "to fly",
                 "example": "Yo navegaba aviones de combate en la Guerra de Corea. - I used to fly fighter jets in the Korean War."
+            },
+            {
+                "translation": "to surf (computing)",
+                "example": "Mi hermana estuvo navegando por Internet para hacer una investigación para su tesis.My sister was surfing the internet to do research for her thesis."
             }
         ]
     },
@@ -7388,6 +7392,10 @@
             {
                 "translation": "to expire",
                 "example": "El período de prueba gratuito del software ha concluido. - The free trial period for this software has expired."
+            },
+            {
+                "translation": "to conclude",
+                "example": "Concluyeron que su propuesta era la más adecuada para este proyecto.They concluded that her proposal was the most appropriate for this project."
             }
         ]
     },
@@ -23514,11 +23522,19 @@
         "isReflexive": 0,
         "translations": [
             {
-                "translation": "B",
+                "translation": "if",
+                "example": "Si llueve mañana, cancelaremos el picnic.If it rains tomorrow, we will cancel the picnic."
+            },
+            {
+                "translation": "whether",
+                "example": "Preguntó si me estaba divirtiendo.He asked whether I was enjoying myself."
+            },
+            {
+                "translation": "B (music)",
                 "example": "Primero lo oí en si menor. - I first heard it played in B minor."
             },
             {
-                "translation": "ti",
+                "translation": "ti (music)",
                 "example": "Practiquemos las escalas en orden inverso: do, si, la... - Let's practice scales in reverse order: do, ti, la..."
             }
         ]
@@ -32585,6 +32601,10 @@
         "isVerb": 0,
         "isReflexive": 0,
         "translations": [
+            {
+                "translation": "relative",
+                "example": "Estoy muy orgullosa que uno de mis familiares ha ganado el torneo.I am very proud that one of my relatives won the tournament."
+            },
             {
                 "translation": "family",
                 "example": "Nos juntamos todos para la reunión familiar el verano pasado. - We all gathered together for the family reunion last summer."
@@ -42757,6 +42777,34 @@
         "isVerb": 0,
         "isReflexive": 0,
         "translations": [
+            {
+                "translation": "regular",
+                "example": "Necesitamos colocar la máquina sobre una superficie regular.We need to put the machine on a regular surface."
+            },
+            {
+                "translation": "fair",
+                "example": "Las notas de Johnny son regulares a pesar de que concentra sus esfuerzos en el deporte.Johnny still gets fair grades despite focusing all his efforts on sport."
+            },
+            {
+                "translation": "ordinary",
+                "example": "Fui al nuevo restaurante italiano y me pareció bastante regular.I went to the new Italian restaurant and I thought it was pretty ordinary."
+            },
+            {
+                "translation": "normal",
+                "example": "Por favor entreguen su tarea en el formato regular.Please hand in the assignment in the normal format."
+            },
+            {
+                "translation": "medium",
+                "example": "¿Café chico o regular? - Regular está bien.Small, or medium coffee? - Medium's fine."
+            },
+            {
+                "translation": "so-so",
+                "example": "¿Cómo has estado, Dany? - Regular, Fer. David sigue sin trabajo.How have you been, Dany? - So-so, Fer. David's still unemployed."
+            },
+            {
+                "translation": "not too bad",
+                "example": "¿Cómo te fue anoche en el trabajo? - Regular, una que otra buena propina.How was work last night? - Not too bad. There were some good tips."
+            },
             {
                 "translation": "to control",
                 "example": "Se hicieron nuevas propuestas para regular la venta de armas. - New proposals were made to control arms sales."
@@ -68109,6 +68157,14 @@
         "isVerb": 0,
         "isReflexive": 0,
         "translations": [
+            {
+                "translation": "broken",
+                "example": "El palo que usé para tostar mi malvavisco está roto en dos.The stick I used for roasting marshmallows is broken in two."
+            },
+            {
+                "translation": "torn",
+                "example": "Me acabo de dar cuenta que mis pantalones estaban rotos en la entrepierna.I just realized that my pants were ripped at the crotch."
+            },
             {
                 "translation": "hole",
                 "example": "Tengo un roto en el vestido. Espero que nadie se fije. - There is a hole in my dress. I hope no one notices."
