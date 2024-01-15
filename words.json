@@ -80779,7 +80779,11 @@
         "translations": [
             {
                 "translation": "deplorable",
-                "example": ""
+                "example": "The prisoners were kept in deplorable conditions, ten of them crammed into one cell.Tenían a los presos en condiciones deplorables, diez de ellos hacinados en una sola celda."
+            },
+            {
+                "translation": "appalling",
+                "example": "El anciano se encontraba en un estado deplorable, sucio y enfermo.The old man was in an appalling state, dirty and sick."
             }
         ]
     },
