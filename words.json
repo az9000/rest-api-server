@@ -34426,6 +34426,50 @@
         "isReflexive": 0,
         "translations": [
             {
+                "translation": "fresh",
+                "example": "Se venden vegetales frescos en el mercado agrícola.Fresh vegetables are sold at the farmer's market."
+            },
+            {
+                "translation": "wet (paint)",
+                "example": "No te apoyes en esa pared. La pintura todavía está fresca.Don't lean against that wall. The paint is still wet."
+            },
+            {
+                "translation": "latest (news)",
+                "example": "Les traemos noticias frescas de los próximos estrenos cinematográficos.We have the latest news on forthcoming movie premieres."
+            },
+            {
+                "translation": "cool",
+                "example": "Por las noches soplaba una brisa fresca que venía del mar.In the evenings there was a cool breeze coming from the sea."
+            },
+            {
+                "translation": "chilly (unpleasant)",
+                "example": "Hace demasiado fresco para sentarse en la terraza.It's too chilly to sit on the terrace."
+            },
+            {
+                "translation": "cold (drink)",
+                "example": "Encontrarás agua fresca en la nevera.You'll find cold water in the fridge."
+            },
+            {
+                "translation": "refreshing",
+                "example": "En verano prefiero la colonia al perfume porque es más fresca.In the summer I prefer cologne to perfume because it's more refreshing."
+            },
+            {
+                "translation": "nerve (insolent)",
+                "example": "¡Qué fresco! ¡Largándose de aquí y dejándonos con todo por hacer!What a nerve! Taking off and leaving us here with everything still to be done!"
+            },
+            {
+                "translation": "fresh air",
+                "example": "Lo que necesitas es salir un rato a tomar el fresco.What you need is to go get some fresh air."
+            },
+            {
+                "translation": "fresco (art)",
+                "example": "Los frescos de la capilla se conservan bien.The chapel frescoes are well preserved."
+            },
+            {
+                "translation": "drink (Latin America)",
+                "example": "Los frescos de frutas naturales son ricos en vitaminas.Natural fruit drinks are rich in vitamins."
+            },
+            {
                 "translation": "chill",
                 "example": "¡Fresco, mano! Ya todo se arreglará. - Chill, dude! Everything will be ok."
             }
@@ -63743,8 +63787,28 @@
         "isReflexive": 0,
         "translations": [
             {
+                "translation": "to peel",
+                "example": "Hugo usó un cuchillo para pelar la naranja.Hugo used a knife to peel the orange."
+            },
+            {
+                "translation": "to clean out",
+                "example": "Me pelaron en el circo; gasté todo mi dinero en los tontos juegos.They cleaned me out at the circus; I spent all my money on silly games."
+            },
+            {
+                "translation": "to fleece",
+                "example": "Pagué $100 por el taxi desde el aeropuerto. - Te pelaron porque no debería haberte costado más de $50.I paid $100 for the taxi from the airport. - You were fleeced, because it shouldn't have cost any more than $50."
+            },
+            {
+                "translation": "to cut someone's hair short",
+                "example": "Voy a llevar a los niños al barbero. - Sí, es mejor pelarlos para que estén bien frescos todo el verano.I'm going to take the boys to the barber. - Yes, it's better to cut their hair short so they're nice and cool all summer."
+            },
+            {
+                "translation": "to pay attention to",
+                "example": "Creo que ya no le gusto porque no me pela en la escuela.I don't think she likes me anymore because she doesn't pay any attention to me at school."
+            },            
+            {
                 "translation": "to gossip",
-                "example": "Si quieres conservar a tus amigos, no debes pelar acerca de ellos. - If you want to keep your friends, you shouldn't gossip about them."
+                "example": "Si quieres conservar a tus amigos, no debes pelar acerca de ellos.If you want to keep your friends, you shouldn't gossip about them."
             },
             {
                 "translation": "to suck it",
