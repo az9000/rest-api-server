@@ -6042,6 +6042,34 @@
         "isReflexive": 0,
         "translations": [
             {
+                "translation": "to hit",
+                "example": "Le pegó a la pelota de béisbol y marcó un jonrón.He hit the baseball and scored a home run."
+            },
+            {
+                "translation": "to paste",
+                "example": "Voy a pegar esto en mi cuaderno para que me inspire.I'm going to paste this in my notebook for inspiration."
+            },
+            {
+                "translation": "to glue",
+                "example": "Pega las dos hojas y luego dóblalas por la mitad.Glue the two sheets together and then fold them in half."
+            },
+            {
+                "translation": "to stick",
+                "example": "Pega este dibujo al lado del otro con chinches.Stick this drawing next to that one with thumbtacks."
+            },
+            {
+                "translation": "to beat",
+                "example": "Lo encarcelaron por pegarle a su perro.They put him in jail for beating his dog."
+            },
+            {
+                "translation": "to give",
+                "example": "Mi tía me pegó la gripa y ahora me tengo que quedar en casa.My aunt gave me the flu and now I have to stay home."
+            },
+            {
+                "translation": "to pull up",
+                "example": "Pega la silla a la mesa, por favor.Pull the chair up to the table, please."
+            },
+            {
                 "translation": "to match",
                 "example": "Esos zapatos no pegan con ese vestido. - Those shoes don't match that dress."
             },
@@ -33950,6 +33978,38 @@
         "isReflexive": 0,
         "translations": [
             {
+                "translation": "hard",
+                "example": "El titanio es un material duro.Titanium is a hard substance.\nEse tipo se cree muy duro, pero debes de verlo con su gatito.That guy thinks he's so hard, but you should see him around his kitten.\nHíjole, ¡el examen de historia estuvo bien duro!Man, the history test was super hard!\nManny Pacquiao y Juan Manual Márquez se pegaron duro durante la pelea.Manny Pacquiao and Juan Manuel Marquez hit each other hard during the match."
+            },
+            {
+                "translation": "tough",
+                "example": "La carne está dura, no la puedo masticar.The meat is tough; I can't chew it."
+            },
+            {
+                "translation": "stale",
+                "example": "Después de dos días el pan se pone duro.Bread goes stale after two days."
+            },
+            {
+                "translation": "stiff",
+                "example": "La caja de velocidades se pone dura cuando hace frío.The gearbox gets stiff when it's cold."
+            },
+            {
+                "translation": "stingy",
+                "example": "El novio de Laura es bien duro. Nunca invita una ronda de tragos cuando salimos.Laura's boyfriend is really stingy. He never buys a round when we go out."
+            },
+            {
+                "translation": "thick",
+                "example": "Mi perro es un poco duro para los trucos.My dog is a bit thick when it comes to tricks."
+            },
+            {
+                "translation": "severe",
+                "example": "Sus críticas fueron duras pero ciertas.His critiques were severe, but accurate."
+            },
+            {
+                "translation": "harsh",
+                "example": "\"No toques mis cosas,\" le dijo Armando a su hermanito con voz dura.\"Don't touch my stuff,\" Armando told his little brother in a harsh tone."
+            },
+            {
                 "translation": "tough guy",
                 "example": "El duro de esta película es Sylvester Stallone. - The tough guy in this movie is Sylvester Stallone."
             },
@@ -46786,6 +46846,18 @@
         "isReflexive": 0,
         "translations": [
             {
+                "translation": "or",
+                "example": "¿Qué color prefieres, verde o azul?What color do you prefer, green or blue?"
+            },
+            {
+                "translation": "either...or",
+                "example": "Terminarás tu tarea o por las buenas o por las malas.You're going to finish your homework either the easy way or the hard way."
+            },
+            {
+                "translation": "o (letter)",
+                "example": "La o va antes de la p en el abecedario.O comes before p in the alphabet."
+            },
+            {
                 "translation": "W",
                 "example": "¿Cuáles son las coordenadas? - 28°37'N y 106°5'O. - What are the coordinates? - 28°37'N and 106°5'W."
             }
@@ -55686,8 +55758,32 @@
         "isReflexive": 0,
         "translations": [
             {
+                "translation": "heavy",
+                "example": "Estas bolsas de la compra son pesadas.These grocery bags are heavy.\nNo es bueno dormirse directamente después de una cena pesada.Going to sleep straight after a heavy meal isn't good for you."
+            },
+            {
+                "translation": "deep",
+                "example": "Me desperté de un sueño pesado con dolor de cabeza.I woke up from a deep sleep with a headache."
+            },
+            {
+                "translation": "annoying",
+                "example": "¡Qué pesado es tu padre!Your dad's so annoying!"
+            },
+            {
+                "translation": "tiresome",
+                "example": "¡Deja de ser tan pesada, por favor!Please stop being so tiresome!"
+            },
+            {
+                "translation": "boring",
+                "example": "La primera clase de economía fue larga y pesada.The first economics lecture was long and boring."
+            },
+            {
+                "translation": "tedious",
+                "example": "Los vuelos de larga distancia se me hacen muy pesados.I find long-haul flights really tedious."
+            },
+            {
                 "translation": "pain",
-                "example": "Mi hermana pequeña es una pesada. - My little sister is a pain."
+                "example": "¡Pero qué pesado eres!You're such a pain!.\nMi hermana pequeña es una pesada. - My little sister is a pain."
             }
         ]
     },
@@ -68151,6 +68247,34 @@
         "isReflexive": 0,
         "translations": [
             {
+                "translation": "to light",
+                "example": "Puedes prender el carbón con un fósforo.You can light the charcoal with a match."
+            },
+            {
+                "translation": "to turn on",
+                "example": "¿No quieres prender la luz para poder leer mejor?Don't you want to turn on the light so you can read better?"
+            },
+            {
+                "translation": "to switch on",
+                "example": "Hace mucho calor. - Prende el aire acondicionado.It's really hot. - Switch on the air conditioning."
+            },
+            {
+                "translation": "to catch",
+                "example": "La policía prendió al sospechoso mientras huía de la escena del crimen.The police caught the suspect running away from the crime scene."
+            },
+            {
+                "translation": "to arrest",
+                "example": "La policía lo prendió por el robo del banco.The police arrested him for the bank robbery."
+            },
+            {
+                "translation": "to attach",
+                "example": "Diego prendió un ramillete al vestido de su novia.Diego attached a corsage to his girlfriend's dress."
+            },
+            {
+                "translation": "to pin",
+                "example": "Mike prendió una rosa a su solapa antes de la boda de su hermano.Mike pinned a rose to his lapel before his brother's wedding."
+            },
+            {
                 "translation": "to take root",
                 "example": "Las semillas prendieron fácilmente en la tierra fértil de la granja. - The seeds took root easily in the farm's fertile soil."
             },
@@ -68290,6 +68414,10 @@
         "isVerb": 0,
         "isReflexive": 0,
         "translations": [
+            {
+                "translation": "joint",
+                "example": "Los dos países frecuentemente participan en ejercicios militares conjuntos.The two countries regularly engage in joint military exercises."
+            },
             {
                 "translation": "collection",
                 "example": "Cindy tiene un conjunto de conchas en una vitrina. - Cindy has a collection of shells in a glass case."
@@ -72538,6 +72666,14 @@
         "isVerb": 0,
         "isReflexive": 0,
         "translations": [
+            {
+                "translation": "gardner",
+                "example": "El jardinero vino el sábado a cortar el césped.The gardener came last Saturday to mow the lawn."
+            },
+            {
+                "translation": "outfielder",
+                "example": "Él fue un famoso jardinero del béisbol.He was a famous baseball outfielder."
+            },
             {
                 "translation": "overalls",
                 "example": "Siempre usa un jardinero para trabajar en la granja. - He always wears overalls to work on the farm."
@@ -86845,6 +86981,30 @@
             {
                 "translation": "gaff",
                 "example": "¿Cuál parte de la vela es el pico?What part of the sail is the gaff?"
+            }
+        ]
+    },
+    {
+        "id": 4726,
+        "spanishWord": "pegajoso",
+        "isVerb": 0,
+        "isReflexive": 0,
+        "translations": [
+            {
+                "translation": "sticky",
+                "example": "Derramé sirope en el piso y ahora está pegajoso.I spilled syrup on the floor, and now it's sticky.\nHacía calor y estaba pegajoso.The weather was hot and sticky."
+            },
+            {
+                "translation": "catchy (Latin America)",
+                "example": "¡Tu nueva canción es muy pegajosa! No puedo parar de cantarla.Your new song is very catchy! I can't stop singing it."
+            },
+            {
+                "translation": "clingy`",
+                "example": "Me llama todo el tiempo y quiere verme todos los días. ¡Es muy pegajoso!He calls me all the time and wants to see me every day. He's so clingy!"
+            },
+            {
+                "translation": "clinging",
+                "example": "Un amante pegajoso no es mejor que uno distante.A clinging lover is no better than a distant one."
             }
         ]
     }

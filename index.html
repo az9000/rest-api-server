@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+
+    <ul>
+        <li id="one"></li>
+        <li id="two"></li>
+        <li id="three"></li>
+    </ul>
+
+    <script>
+        document.getElementById("one").innerHTML = window.location.href + "api/words/limit/:limit (where <b>:limit</b> is a number between 1-X)";
+        document.getElementById("two").innerHTML = window.location.href + "api/words/id/:id  (where <b>:id</b> is a word id)";
+        document.getElementById("three").innerHTML = window.location.href + "api/review/limit/:limit (where <b>:limit</b> is a number between 1-X)";
+    </script>
+</body>
+
+</html>
