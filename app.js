@@ -37,6 +37,10 @@ app.get('/', (request, response) => {
     response.sendFile('/index.html');
 });
 
+let oldArray = [];
+let duplicateCount = 0;
+let round = 0;
+let wordCount = 0;
 // Get words
 // Example: https://<ip>/api/words/limit/10
 app.get('/api/words/limit/:limit', (request, response, next) => {
@@ -49,52 +53,42 @@ app.get('/api/words/limit/:limit', (request, response, next) => {
     // First, get words from the need-review list
     const result = fileSystem.readFile(0).then(res => {
         let wordsArray = [];
-        if (res.data.length <= 10) {
-            for (let i = 0; i < res.data.length; i++) {
-                if (words.find(x => x.id === parseInt(res.data[i]))) {
-                    wordsArray.unshift(words.find(x => x.id === parseInt(res.data[i])));
-                }
+        for (let i = 0; i < res.data.length; i++) {
+            wordsArray.unshift(words.find(x => x.id === parseInt(res.data[i])));
+            if (!oldArray.find(x => x === parseInt(res.data[i]))) {
+                wordCount++;
             }
-        } else {
-            let rnum = getRandomIntInclusive(0, res.data.length);
-            for (var i = 0; i < res.data.length; i++) {
-                if (!wordsArray.find(x => x.word_id === parseInt(res.data[rnum]))) {
-                    if (res.data[rnum]) {
-                        wordsArray.unshift(words.find(x => x.id === parseInt(res.data[rnum])));
-                    }
-                }
-                if (wordsArray.length === 5) {
-                    break;
-                }
-                rnum = getRandomIntInclusive(0, res.data.length);
-            }
+        }                
+        if (wordsArray.length === limit) {
+            console.log('Words served:', wordCount);
+            response.json({
+                message: "success",
+                data: wordsArray
+            });
         }
-        // console.log(wordsArray.length)
-        // get a random number
-        const len = words.length;
-        rnum = getRandomIntInclusive(0, len);
-        wordsArray.push(words[rnum]);
-        if (limit > wordsArray.length) {
-            for (var i = 0; i < len; i++) {
-                rnum = getRandomIntInclusive(0, len);
-                if (words[rnum]) {
-                    for (var j = 0; j < wordsArray.length; j++) {
-                        if (wordsArray[j]) {
-                            if (wordsArray[j]['id'] != words[rnum]['id']) {
-                                wordsArray.push(words[rnum]);
-    
-                                break;
-                            }
-                        }
-                    }
-                }
-
-                if (wordsArray.length === limit) {
-                    break;
+        
+        while (wordsArray.length < limit) {
+            rnum = getRandomIntInclusive(0, words.length);
+            if (!words[rnum]) {
+                continue;
+            }
+            if (!wordsArray.find(x => x.id === words[rnum].id)) {
+                if (!oldArray.find(x => x === words[rnum].id)) {
+                    wordsArray.unshift(words[rnum]);
+                    oldArray.push(words[rnum].id);
+                    wordCount++;
+                    // console.log('add id ', words[rnum].id, wordsArray.length)
+                } else {
+                    duplicateCount++;
                 }
             }
         }
-
+        console.log('Words served:', wordCount, ` (with ${duplicateCount} duplicates found!`);
+        round++;
+        if (round > 30) {
+            round = 0;
+            oldArray = [];
+        }
         response.json({
             message: "success",
             data: wordsArray
@@ -135,6 +129,7 @@ app.get('/api/review/limit/:limit', (request, response, next) => {
     })
 });
 
+let wordsSaved = 0;
 // Add to need-review list
 // Example: https://<ip>/api/review/1234
 app.post('/api/review/', (request, response, next) => {
@@ -148,6 +143,10 @@ app.post('/api/review/', (request, response, next) => {
         return;
     }
     const result = fileSystem.readFile(word_id).then(res => {
+        if (res.message === 'success') {
+            wordsSaved++;
+        }
+        console.log('Words saved:', wordsSaved);
         fileSystem.saveFile(res.data.toString()).then(saved => {
             response.send(res);        
         })
@@ -167,6 +166,10 @@ app.delete('/api/review/:id', (request, response) => {
         return;
     }
     const result = fileSystem.deleteFromFile(parseInt(request.params.id)).then(res => {
+        if (res.message === 'success') {
+            wordsSaved--;
+        }
+        console.log('Words saved:', wordsSaved);
         fileSystem.saveFile(res.data.toString()).then(saved => {
             response.send(res);        
         })
